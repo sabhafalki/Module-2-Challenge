@@ -9,6 +9,7 @@ In order to analyze the runtime, we created two tables:
 1. Time Taken for Execution Table
 2. Percentage Refactored Sheet is Faster
 <br>
+
 ![Table1](/Resources/Table-ExecutionTimeTaken.png)
 
 ![Table2](/Resources/Table-PercentageRefactoredFaster.png)
