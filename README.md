@@ -48,14 +48,33 @@ The following screenshots were taken for the execution times.
 ![Original1-2018](/Resources/Refactored-2018.png)
 <br><br>
 
-###### Goal Outcomes ######
-The Goal Range for "Less than 1,000" and "35,000 to 44,999" had the best outcome on average. And the worst average was from "45,000 to 49,999" range.
+###### Summary ######
+According to the Run-time Analysis, we were able to conlucde:
+1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime for the code
+2) The Graph appears to be linear in nature
+3) Because of the lower runtimes, refactoring the code is benefitial
+
+###### Advantages and Disadvantages of Refactoring Code in General ######
+Refactoring in general has the following advantages:
+1. Refactoring the Code takes time
+2. Refactoring the Code makes the lines of code smaller (i.e. makes the code smaller)
+3. Refactoring makes the code much more efficient (i.e. faster execution)
+4. It is difficult to write refactored code from the start. Only after we have written a simple code, we can refactor it. 
+<br>
+
+Refactoring in general has the following disadvantages:
+1. It requires time to refactor the code
+2. It requires more effort to refactor the code
+3. Sometimes refactoring the code makes it difficult to understand
+<br>
+
+###### Advantages and Disadvantages of Refactoring VBA Code ######
+
+
 
 ###### Closing Remarks ######
-Further analysis could be conducted would also provide us with valuble insight:
-1. Having a Stacked Chart with the "Goal Amount Ranges" and "Theater Outcomes by Launch Date" could help us in understanding any correlations. 
-2. The "Outome based on Goals" is only considering data from Plays. There are a lot of other sub categories which could be considered as well. 
-3. We are comparing "Theater Outcomes by Launch Date" which is considering all the Theathers, while we are only considering Plays for "Outocmes Based on Goals". There could be a correletaion if we break down and create charts from different sub categroies.
-4. There are also some really high performing/value plays which are also skewing the data
+Further analysis could be conducted which could also provide us with valuble insight:
+1. We could increase the number of rows, but duplicating the data to get more insight 
+2. 
 
 
