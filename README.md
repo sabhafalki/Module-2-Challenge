@@ -48,6 +48,12 @@ The following screenshots were taken for the execution times.
 ![Original1-2018](/Resources/Refactored-2018.png)
 <br><br>
 
+###### Refactoered Code Screenshot ######
+The code was refactored by limiting the redundant loop in the code with the help of additional variabels (i.e. tickerIndex, tickerVolumes, tickerStartingPrices, tickerEndingPrices). The redundant loop would uncessarily loop thruogh the entire number of rows, even though it wasn't reuqired.
+
+![Original1-2018](/Resources/RefactoredCode.png)
+<br><br>
+
 ## Summary ##
 According to the Run-time Analysis, we were able to conlucde:
 1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime for the code.
