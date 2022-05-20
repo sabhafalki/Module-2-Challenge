@@ -1,13 +1,16 @@
 # Overview of Project #
-The purpose of this Project is to visualize the campaign outcomes based on their launch dates and their funding goals. The data set ranges from 2009 to 2017, with multiple Theatres/Plays under consideration. 
+The purpose of this Project is to refactorize the code compare the performance. The goal is to also analyze the effects of refactorization, and to minimize code execution time. 
 
 
 ## Analysis And Challenges ##
-In order to analyze the data, we created two charts:
-1. A Line Chart for visualizing Theater Outcomes by Launch Date
-2. A Line Chart for visualizing Outcomes Based on Goals
+We analyzed by modifying the code and running it against different number of tickers. We collected the different execution times for both Refactored and the Origianl Sheet for the different number of Tcikers.
 
-In order to calculate the Mean, Median and Standard Deviation we also created filtered data sets since we could not operate on the original data set. 
+In order to analyze the runtime, we created two tables:
+1. Time Taken for Execution Table
+2. Percentage Refactored Sheet is Faster
+<br>
+![Table1](/Resources/Table-ExecutionTimeTaken.png)
+![Table2](/Resources/Table-PercentageRefactoredFaster.png)
 <br><br>
 
 ###### Analysis of Outcomes Based on Launch Date ######
