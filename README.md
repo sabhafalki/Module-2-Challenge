@@ -98,3 +98,4 @@ Disadvantages:
 2. We could increase the number of rows, by duplicating the data (i.e. Dummy Data) to get much better insight.
 3. The execution varies for each run, since it is dependent on the PC.
 4. The first exeuction is always slower. Once the macro is in memory, it is much faster for subsequent runs.
+5. The Line Functions can be used to estimate the required time for execution, for different number of rows. 
