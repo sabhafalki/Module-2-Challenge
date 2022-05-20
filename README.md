@@ -50,31 +50,43 @@ The following screenshots were taken for the execution times.
 
 ###### Summary ######
 According to the Run-time Analysis, we were able to conlucde:
-1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime for the code
-2) The Graph appears to be linear in nature
-3) Because of the lower runtimes, refactoring the code is benefitial
+1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime for the code.
+2) The Graph appears to be linear in nature.
+3) Because of the lower runtimes, refactoring the code is benefitial.
+4) The number of rows is directly affecting the excution time.
 
 ###### Advantages and Disadvantages of Refactoring Code in General ######
 Refactoring in general has the following advantages:
-1. Refactoring the Code takes time
-2. Refactoring the Code makes the lines of code smaller (i.e. makes the code smaller)
-3. Refactoring makes the code much more efficient (i.e. faster execution)
+1. Refactoring the Code takes time.
+2. Refactoring the Code makes the lines of code smaller (i.e. makes the code smaller).
+3. Refactoring makes the code much more efficient (i.e. faster execution).
 4. It is difficult to write refactored code from the start. Only after we have written a simple code, we can refactor it. 
 <br>
 
 Refactoring in general has the following disadvantages:
-1. It requires time to refactor the code
-2. It requires more effort to refactor the code
-3. Sometimes refactoring the code makes it difficult to understand
+1. It requires time to refactor the code.
+2. It requires more effort to refactor the code.
+3. Sometimes refactoring the code makes it difficult to understand.
+<br><br>
+
+###### Advantages and Disadvantages of the Original and Refactored VBA Script ######
+Advantages:
+1. THe Refactored VBA Script was much smaller than the original VBA Script.
+2. The Refactored VBA Script was running much faster than the original VBA Script.
 <br>
 
-###### Advantages and Disadvantages of Refactoring VBA Code ######
-
-
+Disadvantages:
+1. The Refactored VBA Script was much more difficult to write.
+2. The Refactored VBA Script is much more difficult to interpret.
+3. The Original Code was running much slower, because it would unncessarily loop throgh the entire dataset for each Ticker.
+<br><br>
 
 ###### Closing Remarks ######
 Further analysis could be conducted which could also provide us with valuble insight:
-1. We could increase the number of rows, but duplicating the data to get more insight 
-2. 
+1. The VBA Script will only run if the dataset is sorted.
+2. We could increase the number of rows, by duplicating the data (i.e. Dummy Data) to get much better insight.
+3. The execution varies for each run, since it is dependent on the PC.
+4. The first exeuction is always slower. Once the macro is in memory, it is much faster for subsequent runs.
+
 
 
