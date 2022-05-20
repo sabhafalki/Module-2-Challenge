@@ -1,9 +1,9 @@
 # Overview of Project #
-The purpose of this Project is to refactorize the code compare the performance. The goal is to also analyze the effects of refactorization, and to minimize code execution time. 
+The purpose of this Project is to compare the performance improvements of the refactored VB SCript. The goal is to also analyze the effects of refactorization, and to minimize VB Script execution time. 
 
 
 ## Analysis And Challenges ##
-We analyzed by modifying the code and running it against different number of tickers (i.e. number of rows in dataset). We collected the different execution times for both Refactored and the Origianl Sheet for the different number of Tcikers.
+We analyzed by modifying the VB Script and running it against different number of tickers (i.e. number of rows in dataset). We collected the different execution times for both Refactored and the Origianl Sheet for the different number of Tcikers.
 
 In order to analyze the runtime, we created two tables:
 1. Time Taken for Execution Table
@@ -15,41 +15,41 @@ In order to analyze the runtime, we created two tables:
 <br><br>
 
 ###### Analysis Based on Refactorization of the Code ######
-After plotting and anylyzing the results, we deduced that the Refactored code was much faster. 
+After plotting and anylyzing the results, we deduced that the Refactored VB Script was much faster. 
 
 ![Table1](/Resources/Chart-RuntimeComparison.png)
 <br><br>
 
 
 ###### Further Analysis ######
-We also analyzed the results further to determine how much faster the refactored code was, compared to the original code.
+We also analyzed the results further to determine how much faster the refactored VB Script was, compared to the original VB Script.
 
 ![Table1](/Resources/Chart-RefactoredSheetPerformance.png)
 <br><br>
 
 ## Challenges and Difficulties Encountered ##
-In order to analyze how the Number of Rows (i.e. Tickers) effectd the Execution Time, we had to modify the code and run it multiple times. We modified the code by adjusting the Number of Ticker Value. 
+In order to analyze how the Number of Rows (i.e. Tickers) effectd the Execution Time, we had to modify the VB Script and run it multiple times. We modified the VB Script by adjusting the Number of Ticker Value. We also added Buttons so that we can easily select 2017 or 2018 stock years. 
 <br><br>
 
 ## Results ##
 ###### Runtime Screenshots ######
 The following screenshots were taken for the execution times. 
 
-1. Original Code Execution Screenshots
+1. Original VB Script Execution Screenshots
 
 ![Original1-2017](/Resources/Original-2017.png)
 
 ![Original1-2018](/Resources/Original-2018.png)
 
-2. Refactored Code Execution Screenshots
+2. Refactored VB Script Execution Screenshots
 
 ![Original1-2018](/Resources/Refactored-2017.png)
 
 ![Original1-2018](/Resources/Refactored-2018.png)
 <br><br>
 
-###### Refactoered Code Screenshot ######
-The code was refactored by limiting the redundant loop in the code with the help of additional variabels (i.e. tickerIndex, tickerVolumes, tickerStartingPrices, tickerEndingPrices). The redundant loop would uncessarily loop thruogh the entire number of rows, even though it wasn't required (i.e. once we complete the iteration for a specific Ticker, we need not continue the loop).
+###### Refactoered VB Script Screenshot ######
+The VB Script was refactored by limiting the redundant loop in the VB Script with the help of additional variabels (i.e. tickerIndex, tickerVolumes, tickerStartingPrices, tickerEndingPrices). The redundant loop would uncessarily loop thruogh the entire number of rows, even though it wasn't required (i.e. once we complete the iteration for a specific Ticker, we need not continue the loop).
 
 ![RefactoredVBCode-2018](/Resources/RefactoredVBCode.png)
 <br><br>
