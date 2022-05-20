@@ -3,7 +3,7 @@ The purpose of this Project is to refactorize the code compare the performance. 
 
 
 ## Analysis And Challenges ##
-We analyzed by modifying the code and running it against different number of tickers. We collected the different execution times for both Refactored and the Origianl Sheet for the different number of Tcikers.
+We analyzed by modifying the code and running it against different number of tickers (i.e. number of rows in dataset). We collected the different execution times for both Refactored and the Origianl Sheet for the different number of Tcikers.
 
 In order to analyze the runtime, we created two tables:
 1. Time Taken for Execution Table
