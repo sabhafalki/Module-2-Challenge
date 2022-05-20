@@ -3,7 +3,7 @@ The purpose of this Project is to refactorize the code compare the performance. 
 
 
 ## Analysis And Challenges ##
-We analyzed by modifying the code and running it against different number of tickers. We collected the different execution times for both Refactored and the Origianl Sheet for the different number of Tcikers.Cancel changes
+We analyzed by modifying the code and running it against different number of tickers. We collected the different execution times for both Refactored and the Origianl Sheet for the different number of Tcikers.
 
 In order to analyze the runtime, we created two tables:
 1. Time Taken for Execution Table
@@ -14,27 +14,16 @@ In order to analyze the runtime, we created two tables:
 ![Table2](/Resources/Table-PercentageRefactoredFaster.png)
 <br><br>
 
-###### Analysis of Outcomes Based on Launch Date ######
-After analyzing the outcomes, we were able to  conclude the following:
-1. The Theater Plays are most successful between April to Aug each year, with the highest being in May.
-2. There is a steady decline of Successful plays starting from October and ending on Dec each year. October also happens to be the highest number of failures every year.
-3. There were no plays cancelled in October every year
+###### Analysis Based on Refactorization of the Code ######
+After plotting and anylyzing the results, we deduced that the Refactored code was much faster. 
+
+![Table1](/Resources/Chart-RuntimeComparison)
+
 <br>
 
 ![Theater Outcomes](/resources/Theater_Outcomes_vs_Launch.png)
 <br><br>
 
-###### Analysis of Outcomes Based on Goals ######
-After analyzing hte outcomes, we were able to conclude the following: 
-1. There were no cancelled plays in any year from 2009 to 2017
-2. Since there are no cancelled plays, the successful percentage is inversely proportional to the failed percentage of Plays
-3. Plays that had a range of less than $1,000 had the highest success factor
-4. Plays that had a range between $35,000 to $44,999 had the second highest success factor
-5. Plays that had a rnage between $45,000 to $49,999 had the highest failure rate
-<br>
-
-![Goal Outcomes](/resources/Outcomes_vs_Goals.png)
-<br><br>
 
 ###### Further Analysis ######
 After further investigation, we could also conclude that:
