@@ -25,6 +25,11 @@ After plotting and anylyzing the results, we deduced that the Refactored VB Scri
 We also analyzed the results further to determine how much faster the refactored VB Script was, compared to the original VB Script.
 
 ![Table1](/Resources/Chart-RefactoredSheetPerformance.png)
+<br>
+
+We also created a Line Chart for 2017 (for both Original and Refactored Code) where we created the Line Functions so that they can be used to estimate the execution time that is required for 'n' number of data rows in the dataset. 
+
+![LineFunction](/Resources/LineFunction.png)
 <br><br>
 
 ## Challenges and Difficulties Encountered ##
