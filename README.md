@@ -48,13 +48,6 @@ The following screenshots were taken for the execution times.
 ![Original1-2018](/Resources/Refactored-2018.png)
 <br><br>
 
-###### Summary ######
-According to the Run-time Analysis, we were able to conlucde:
-1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime for the code.
-2) The Graph appears to be linear in nature.
-3) Because of the lower runtimes, refactoring the code is benefitial.
-4) The number of rows is directly affecting the excution time.
-
 ###### Advantages and Disadvantages of Refactoring Code in General ######
 Refactoring in general has the following advantages:
 1. Refactoring the Code takes time.
@@ -79,6 +72,14 @@ Disadvantages:
 1. The Refactored VBA Script was much more difficult to write.
 2. The Refactored VBA Script is much more difficult to interpret.
 3. The Original Code was running much slower, because it would unncessarily loop throgh the entire dataset for each Ticker.
+<br><br>
+
+## Summary ##
+According to the Run-time Analysis, we were able to conlucde:
+1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime for the code.
+2) The Graph appears to be linear in nature.
+3) Because of the lower runtimes, refactoring the code is benefitial.
+4) The number of rows is directly affecting the excution time.
 <br><br>
 
 ###### Closing Remarks ######
