@@ -56,7 +56,7 @@ The VB Script was refactored by limiting the redundant loop in the VB Script wit
 
 ## Summary ##
 According to the Run-time Analysis, we were able to conlucde:
-1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime for the code.
+1) The Lower the number of Rows (i.e. Associated with Tickers), the lower the runtime of the VB Script.
 2) The Graph appears to be linear in nature.
 3) Because of the lower runtimes, refactoring the code is benefitial.
 4) The number of rows is directly affecting the excution time.
