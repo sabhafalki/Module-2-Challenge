@@ -83,11 +83,7 @@ Disadvantages:
 <br><br>
 
 ###### Closing Remarks ######
-Further analysis could be conducted which could also provide us with valuble insight:
 1. The VBA Script will only run if the dataset is sorted.
 2. We could increase the number of rows, by duplicating the data (i.e. Dummy Data) to get much better insight.
 3. The execution varies for each run, since it is dependent on the PC.
 4. The first exeuction is always slower. Once the macro is in memory, it is much faster for subsequent runs.
-
-
-
