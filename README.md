@@ -17,7 +17,7 @@ In order to analyze the runtime, we created two tables:
 ###### Analysis Based on Refactorization of the Code ######
 After plotting and anylyzing the results, we deduced that the Refactored code was much faster. 
 
-![Table1](/Resources/Chart-RuntimeComparison)
+![Table1](/Resources/Chart-RuntimeComparison.png)
 
 <br>
 
