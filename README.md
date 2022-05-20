@@ -28,18 +28,21 @@ We also analyzed the results further to determine how much faster the refactored
 <br><br>
 
 ## Challenges and Difficulties Encountered ##
-The Data Set seems to have a lot of Outliers:
-1. For Successful Plays: Pledged had 58, while Goals had 73
-2. For Failed Plays: Pledged had 38, while Goals had 32
-<br>
-
-![Further Analysis](/resources/Succesful%20Plays.png)
-![Further Analysis](/resources/Failed%20Plays.png)
+In order to analyze how the Number of Rows (i.e. Tickers) effectd the Execution Time, we had to modify the code and run it multiple times. We modified the code by adjusting the Number of Ticker Value. 
 <br><br>
 
 ## Results ##
-###### Theater Outcomes ######
-It appears that overall the Theatres had the best rate of success from Apr to Sep on average each year. They also had the highest Failed Rate in Dec (starting from Nov to Dec) on average each year. 
+###### Runtime Screenshots ######
+The following screenshots were taken for the execution times. 
+
+![Original1-2017](/Resources/Original-2017.png)
+
+![Original1-2018](/Resources/Original-2018.png)
+
+![Original1-2018](/Resources/Refactored-2017.png)
+
+![Original1-2018](/Resources/Refactored-2018.png)
+<br><br>
 
 ###### Goal Outcomes ######
 The Goal Range for "Less than 1,000" and "35,000 to 44,999" had the best outcome on average. And the worst average was from "45,000 to 49,999" range.
