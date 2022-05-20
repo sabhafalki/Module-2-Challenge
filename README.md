@@ -18,21 +18,13 @@ In order to analyze the runtime, we created two tables:
 After plotting and anylyzing the results, we deduced that the Refactored code was much faster. 
 
 ![Table1](/Resources/Chart-RuntimeComparison.png)
-
-<br>
-
-![Theater Outcomes](/resources/Theater_Outcomes_vs_Launch.png)
 <br><br>
 
 
 ###### Further Analysis ######
-After further investigation, we could also conclude that:
-1. The mean is much higher then mode, the data is right skewed
-2. The Standard Deviation is quite large from the Mean
-3. It seems that there are 4 high valued plays, that have a high impact on the outcome of the anlysis
-<br>
+We also analyzed the results further to determine how much faster the refactored code was, compared to the original code.
 
-![Further Analysis](/resources/Central%20Tendency.png)
+![Table1](/Resources/Chart-RefactoredSheetPerformance.png)
 <br><br>
 
 ## Challenges and Difficulties Encountered ##
