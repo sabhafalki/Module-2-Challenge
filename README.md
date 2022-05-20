@@ -35,9 +35,13 @@ In order to analyze how the Number of Rows (i.e. Tickers) effectd the Execution 
 ###### Runtime Screenshots ######
 The following screenshots were taken for the execution times. 
 
+1. Original Code Execution Screenshots
+
 ![Original1-2017](/Resources/Original-2017.png)
 
 ![Original1-2018](/Resources/Original-2018.png)
+
+2. Refactored Code Execution Screenshots
 
 ![Original1-2018](/Resources/Refactored-2017.png)
 
