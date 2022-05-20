@@ -8,7 +8,6 @@ We analyzed by modifying the code and running it against different number of tic
 In order to analyze the runtime, we created two tables:
 1. Time Taken for Execution Table
 2. Percentage Refactored Sheet is Faster
-<br>
 
 ![Table1](/Resources/Table-ExecutionTimeTaken.png)
 
