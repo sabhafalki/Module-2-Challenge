@@ -49,7 +49,7 @@ The following screenshots were taken for the execution times.
 <br><br>
 
 ###### Refactoered Code Screenshot ######
-The code was refactored by limiting the redundant loop in the code with the help of additional variabels (i.e. tickerIndex, tickerVolumes, tickerStartingPrices, tickerEndingPrices). The redundant loop would uncessarily loop thruogh the entire number of rows, even though it wasn't reuqired.
+The code was refactored by limiting the redundant loop in the code with the help of additional variabels (i.e. tickerIndex, tickerVolumes, tickerStartingPrices, tickerEndingPrices). The redundant loop would uncessarily loop thruogh the entire number of rows, even though it wasn't required (i.e. once we complete the iteration for a specific Ticker, we need not continue the loop).
 
 ![Original1-2018](/Resources/RefactoredCode.png)
 <br><br>
